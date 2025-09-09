@@ -57,6 +57,27 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // AI虚拟前辈 Design System Colors
+        success: {
+          DEFAULT: "hsl(var(--success))",
+          foreground: "hsl(var(--success-foreground))",
+        },
+        warning: {
+          DEFAULT: "hsl(var(--warning))",
+          foreground: "hsl(var(--warning-foreground))",
+        },
+        title: "hsl(var(--title))",
+        body: "hsl(var(--body))",
+        caption: "hsl(var(--caption))",
+      },
+      spacing: {
+        // 8px Grid System - Following specification
+        '0.5': '4px',   // 0.5x
+        '1': '8px',     // 1x
+        '1.5': '12px',  // 1.5x
+        '2': '16px',    // 2x
+        '3': '24px',    // 3x
+        '4': '32px',    // 4x
       },
       borderRadius: {
         lg: "var(--radius)",
